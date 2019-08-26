@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
 
     <title>Photo Ninja</title>
     <style>
@@ -53,7 +54,22 @@
                 <ul class="right hide-on-med-and-down">
                     <li><a href="#">Photo's</a></li>
                     <li><a href="#">Services</a></li>
-                    <li><a href="#">Contactsa</a></li>
+                    <li><a href="#">Contacts</a></li>
+                    <li>
+                        <a href="#" data-tooltip="This is Instagram" class="tooltipped btn-floating btn-small indigo darken-4">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-tooltip="This is Facebook" class="tooltipped btn-floating btn-small indigo darken-4">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-tooltip="This is Twitter" class="tooltipped btn-floating btn-small indigo darken-4">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
                 </ul>
                 <ul class="sidenav grey lighten-2" id="mobile-menu">
                     <li><a href="#">Photo's</a></li>
@@ -224,7 +240,7 @@
                 <div class="col s12 l6">
                     <h5>About Me</h5>
                     <p>imperdiet dui accumsan sit amet nulla facilisi morbi tempus iaculis urna id.</p>
-                    <p>imperdiet dui accumsan sit amet nulla facilisi morbi tempus iaculis urna id.</p>
+                    <p>imperdiet dui accumsan sait amet nulla facilisi morbi tempus iaculis urna id.</p>
                 </div>
                 <div class="col s12 l4 offset-l2">
                     <h5>Connect</h5>
@@ -259,6 +275,7 @@
             $('.datepicker').datepicker({
                 disableWeekends: true
             })
+            $('.tooltipped').tooltip()
         })
     </script>
 </body>
