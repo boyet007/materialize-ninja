@@ -123,11 +123,13 @@
                 </ul>
                 <div class="col 12" id="Photography">
                     <p class="flow-text indigo-text text-darken-4">PHOTOGRAYPHY</p>
-                    <p>odio pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae.</p>
+                    <p>odio pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae.
+                    </p>
                 </div>
                 <div class="col 12" id="Editing">
                     <p class="flow-text indigo-text text-darken-4">EDITING</p>
-                    <p>odio pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae.</p>
+                    <p>odio pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae.
+                    </p>
                 </div>
             </div>
         </div>
@@ -161,7 +163,7 @@
         <p>interdum consectetur libero id faucibus nisl tincidunt eget nullam non nisi est sit amet facilisis magna etiam tempor.</p>
         <p>interdum consectetur libero id faucibus nisl tincidunt eget nullam non nisi est sit amet facilisis magna etiam tempor.</p>
         <p>interdum consectetur libero id faucibus nisl tincidunt eget nullam non nisi est sit amet facilisis magna etiam tempor.</p>
-        <p>interdum consectetur libero id faucibus nisl tincidunt eget nullam non nisi est sit amet facilisis magna etiam tempor.</p>
+        <p>interdum consectetur liberoa id faucibus nisl tincidunt eget nullam non nisi est sit amet facilisis magna etiam tempor.</p>
     </div>
 
     <!-- contact form -->
@@ -169,9 +171,12 @@
         <div class="row">
             <div class="col s12 l5">
                 <h2 class="indigo-text text-darken-4">Get In Touch</h2>
-                <p>orci a scelerisque purus semper eget duis at tellus at urna condimentum mattis pellentesque id nibh.</p>
-                <p>orci a scelerisque purus semper eget duis at tellus at urna condimentum mattis pellentesque id nibh.</p>
-                <p>orci a scelerisque purus semper eget duis at tellus at urna condimentum mattis pellentesque id nibh.</p>
+                <p>orci a scelerisque purus semper eget duis at tellus at urna condimentum mattis pellentesque id nibh.
+                </p>
+                <p>orci a scelerisque purus semper eget duis at tellus at urna condimentum mattis pellentesque id nibh.
+                </p>
+                <p>orci a scelerisque purus semper eget duis at tellus at urna condimentum mattis pellentesque id nibh.
+                </p>
             </div>
             <div class="col s12 l5 offset-l2">
                 <form action="">
@@ -185,6 +190,27 @@
                         <i class="material-icons prefix">message</i>
                         <textarea name="" id="message" cols="30" rows="10" class="materialize-textarea"></textarea>
                         <label for="message">Your Message</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" class="datepicker" id="date">
+                        <label for="date">Choose a date you need me for..</label>
+                    </div>
+                    <div class="input-field">
+                        <p>
+                            <label>
+                                <input type="checkbox" name="" id="">
+                                <span>Photography</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox" name="" id="">
+                                <span>Editings</span>
+                            </label>
+                        </p>
+                    </div>
+                    <div class="input-field center">
+                        <button class="btn">Submit</button>
                     </div>
                 </form>
             </div>
@@ -205,6 +231,9 @@
             $('.material-boxed').materialbox()
             $('.parallax').parallax()
             $('.tabs').tabs()
+            $('.datepicker').datepicker({
+                disableWeekends: true
+            })
         })
     </script>
 </body>
