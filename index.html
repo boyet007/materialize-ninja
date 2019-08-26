@@ -20,47 +20,20 @@
 
 <body>
     <div class="container">
-        <div class="container">
-            <h2>Collections</h2>
-            <ul class="collection with-header">
-                <li class="collection-header">
-                    <h4>Customers</h4>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle blue">person</i>
-                    <span class="title">Ryu</span>
-                    <p class="grey-text">black-belt</p>
-                    <a href="" class="secondary-content">
-                        <i class="material-icons blue-text">email</i>
-                    </a>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle blue">person</i>
-                    <span class="title">Yoshi</span>
-                    <p class="grey-text">black-belt</p>
-                    <a href="" class="secondary-content">
-                        <i class="material-icons blue-text">email</i>
-                    </a>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle blue">person</i>
-                    <span class="title">Crystal</span>
-                    <p class="grey-text">black-belt</p>
-                    <a href="" class="secondary-content">
-                        <i class="material-icons blue-text">email</i>
-                    </a>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle blue">person</i>
-                    <span class="title">Bemo</span>
-                    <p class="grey-text">black-belt</p>
-                    <a href="" class="secondary-content">
-                        <i class="material-icons blue-text">email</i>
-                    </a>
-                </li>
-            </ul>
-        </div>
+        <h2>Modals</h2>
+        <a href="#terms" class="btn orange modal-trigger">Terms & Conditions</a>
+    </div>
 
+    <div class="modal" id="terms">
+        <div class="modal-content">
+            <h4>Terms & Conditions</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fringilla ut morbi tincidunt augue interdum velit. Id nibh tortor id aliquet lectus proin nibh nisl. Blandit cursus
+                risus at ultrices mi tempus imperdiet nulla malesuada. Leo a diam sollicitudin tempor. Est placerat in egestas erat imperdiet sed euismod. Augue neque gravida in fermentum et sollicitudin ac orci phasellus. Turpis nunc eget lorem dolor
+                sed viverra ipsum nunc. A diam maecenas sed enim. Libero justo laoreet sit amet cursus. Elit ut aliquam purus sit. Augue neque gravida in fermentum et sollicitudin ac orci phasellus.</p>
+        </div>
+        <div class="modal-footer">
+            <a href="" class="modal-close btn orange">Agree & Close</a>
+        </div>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -69,7 +42,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
     <script>
         $(document).ready(function() {
-            $('.sidenav').sidenav()
+            $('.modal').modal()
         })
     </script>
 </body>
